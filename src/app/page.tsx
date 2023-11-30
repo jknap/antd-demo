@@ -6,7 +6,7 @@ import theme from "@/theme/themeConfig";
 const HomePage = () => (
   <ConfigProvider theme={theme}>
     <div className="App">
-      <Button type="primary">Button</Button>
+      <Button type="default">Button</Button>
     </div>
   </ConfigProvider>
 );
